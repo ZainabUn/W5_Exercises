@@ -7,4 +7,4 @@ rate=3
 #formula
 double_value_time= 72/rate
 
-print('At a ' ,rate , ' % ', 'interest rate, your savings account will be worth double in', double_value_time,' number years')
+print('At a ' ,format(rate, ".2f") , ' % ', 'interest rate, your savings account will be worth double in', format(double_value_time,".1f"),' number years')
