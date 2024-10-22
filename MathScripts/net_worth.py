@@ -1,6 +1,6 @@
 assets =0
 debt= 0
 
-networth= assets+ debt
+networth= assets- debt
 
 print('Your networth is',networth)
