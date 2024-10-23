@@ -20,3 +20,9 @@ def trip(people):
 
 print('cost per person is $',round(trip(38),2))
 
+
+#trying in class 10/23
+var= "house"
+print(var[-5:0])
+#negative to positive does not seem to work
+
