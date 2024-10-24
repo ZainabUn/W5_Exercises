@@ -30,9 +30,15 @@ print(adress)
 # 4. Add a new variable for full_name and assign its value as a tuple containing two 
 # key:value pairs. The first key:value pair should contain the key “first name” and a first 
 # name, and the second should contain the key “last name” and a last name. 
-full_name=  
+full_name=  ('firstname', 'Zainab', 'lastname', 'Unisa')
 
 # 5. Use the .update() method to add one more key:value pair, with the key “honorific” and 
 # the value set to Mr. / Ms. / Mx. / Dr. / Hon. / etc. as appropriate. 
+# honorificlist= ['Mr.' ,'  Ms.', 'Mx.',  ' Dr.',  'Hon.']
+adress.update({'honorific': 'Ms.'})
+print(adress)
+
 # 6. Print the formatted address again, updating as needed to include the new dictionary 
 # items.
+adress.update({'fullname':full_name[1]+ full_name[3], })
+print(adress)
