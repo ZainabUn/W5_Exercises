@@ -1,11 +1,16 @@
 # In a file named pay_rules.py, create a script to calculate gross pay given the variables 
 # pay_rate and hours_worked. If the person works more than 40 hours, pay the 
 # overtime hours at 1.5 times the rate of regular hours. 
-pay_rate=int(input(("enter payrate")))
+pay_rate=float(input(("enter payrate")))
 
-hours_worked=int(input(("enter hours worked")))
+hours_worked=float(input(("enter hours worked")))
 
+if (hours_worked>40):
+    salary=pay_rate*((40-hours_worked)*2)
+else:
+    salary=(pay_rate*hours_worked)
 
+print("your salary is" , salary)
 
 
 
