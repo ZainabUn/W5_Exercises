@@ -16,11 +16,15 @@
 # time=19
 time=9
 
-if 0<time<10:
+if 6<time<10:
     print('Good Morning!')
 elif 10<= time <17:
     print('Good evening!')
 elif time<17:
     print('Good day!')
+elif 0 <time< 6  and 
 else:
     print('Hi, check input again')
+
+# Update your script to include an additional condition that will print “What are you 
+# doing up so late??” if the hour is between 11pm and 4am.
