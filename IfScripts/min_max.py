@@ -15,6 +15,6 @@ elif b<a and b<c:
     "b is greater"
 elif c<a and c<b:
     "c is greater"
-elif a==b or 
+# elif a==b or 
 else:
     print('check input again. ')
