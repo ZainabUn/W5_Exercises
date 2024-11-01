@@ -22,3 +22,14 @@
 # for hours worked, pay rate, and filing status. Examine the tax tables and see if you can 
 # determine a set of good test values. Discuss with your small group – then run your 
 # tests!
+pay_rate=float(input(("enter payrate")))
+status=str(("Enter filing status: simgle or joint" ))
+
+hours_worked=float(input(("enter hours worked")))
+
+if (hours_worked>40):
+    salary=pay_rate*((40-hours_worked)*2)
+else:
+    salary=(pay_rate*hours_worked)
+
+print("your salary is" , salary)
